@@ -11,6 +11,7 @@ function InputBox(props) {
             className="form-control form-control-user"
             id={id}
             placeholder={label}
+            {...props}
         />
     </>
   )
