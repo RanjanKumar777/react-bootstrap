@@ -1,14 +1,14 @@
-import './App.css';
+import "./App.css";
+import 'font-awesome/css/font-awesome.min.css';
+import SignUp from "./pages/SignUp";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Welcome React Bootstrap Project
-        </p>
-      </header>
-    </div>
+      <div>
+        <div className="container">
+          <SignUp />
+        </div>
+      </div>
   );
 }
 
