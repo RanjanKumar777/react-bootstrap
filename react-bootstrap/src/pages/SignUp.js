@@ -24,7 +24,7 @@ function SignUp() {
                         </div>
                       </div>
                       <div className="form-group">
-                        <InputBox label="Email Address" type="text" id="email" />
+                        <InputBox label="Email Address" type="email" id="email" />
                       </div>
                       <div className="form-group row">
                         <div className="col-sm-6 mb-3 mb-sm-0">
